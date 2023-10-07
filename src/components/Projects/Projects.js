@@ -29,7 +29,7 @@ function Projects() {
               description="A simple desktop app to help short-term rental home owners manage their business.
               Record reservations, Create contracts, invoices, e-mails and customer logbook automatically, Access statistics and turnover."
               ghLink="https://github.com/Daviddaill/Booking-Management-System"
-              demoLink="https://www.gerer-mon-gite.com/"
+              demoLink="https://daviddaill.github.io/gerer-mon-gite/index.html"
             />
           </Col>
 
