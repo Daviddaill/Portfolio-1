@@ -5,14 +5,15 @@ function Type() {
   return (
     <Typewriter
       options={{
-        strings: [
-          "A Junior Front-End Developer",
-          "On the way to becoming a Full-Stack Engineer",
-          "With Java Programming and Software Engineering Skills ",
+        strings: [        
+          "a junior Front End Developer,",
+          "Committed to creating pleasant and well-designed applications.",
+          "I wish you a pleasant visit...",
+          
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 2,
       }}
     />
   );

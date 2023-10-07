@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import reddit from "../../Assets/Projects/reddit.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -33,7 +33,16 @@ function Projects() {
             />
           </Col>
 
-          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={reddit}
+              isBlog={false}
+              title="Reddit Lite"
+              description="Search, explore, and read articles effortlessly. Discover content by keywords or categories, preview results, and enjoy a responsive experience with React and Redux. Simplify your reading journey today! 📚📰🚀"
+              ghLink="https://github.com/Daviddaill/Reddit-Lite"
+              demoLink="https://lite-reddit.netlify.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard

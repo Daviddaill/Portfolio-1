@@ -255,6 +255,8 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  width:100%;
+  margin:0 auto;
 }
 
 .home-section {
