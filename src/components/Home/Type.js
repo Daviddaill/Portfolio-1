@@ -8,7 +8,7 @@ function Type() {
         strings: [        
           "a junior Front End Developer,",
           "Committed to creating pleasant and well-designed applications.",
-          "I wish you a pleasant visit...",
+          "Enjoy your visit...",
           
         ],
         autoStart: true,
